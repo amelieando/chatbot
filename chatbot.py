@@ -12,16 +12,16 @@ def main():
     joke()
 def says_hello(name):
     print("hi " + name)
-    your_day = input("tell me about yor day, how are you feeling? ")
-    print("oh..")
+    your_day = input("What are your favorite TV shows?")
+    print("That's a good choice")
 def replies():
     preferences = input("cats or dogs?")
     if preferences == "dogs":
-        print("omg same girl, they're so cute and fluffy")
+        print("Realy? I perfer them too! They're so cute and fluffy")
     else:
-        print("facinating.")
+        print("That's a facinating choice.")
 def joke():
-    jk = input("i can tell you a joke")
+    jk = input("I can tell you a joke")
     print("What is Harry Potter's favorite method of getting down a hill?")
     random = input("type here: ")
     print("Walking... jk, rolling.")
